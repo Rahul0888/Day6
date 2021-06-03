@@ -1,0 +1,69 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* 
+             
+            ArrayList al = new ArrayList();
+            al.Add("manoj");
+            al.Add(1);
+            al.Add('p');
+            al.Remove(1);
+            Console.WriteLine(al[0]);
+            Console.WriteLine(al[1]);
+            Console.WriteLine(al[2]);
+            Console.ReadLine();   
+
+            */
+
+            // HASH TABLE
+            /*
+            Hashtable ht = new Hashtable();
+            ht.Add(101,"manoj");
+            ht.Add(102,"Manu");
+            ht.Add(103,"man");
+            ht.Remove(103);
+            ICollection keys = ht.Keys;
+            foreach (var item in keys)
+            {
+                Console.WriteLine(item +" :" + ht[item]);
+            }
+            Console.ReadLine();
+            */
+
+            // QUEUE
+            /*
+
+            Queue q = new Queue();
+            q.Enqueue("c#");
+            q.Enqueue("Java");
+            q.Enqueue("DBMS");
+            Console.WriteLine(q.Peek());
+            q.Dequeue();
+            Console.WriteLine(q.Peek());
+            Console.ReadLine();
+
+            */
+
+            //STACK 
+
+            Stack s = new Stack();
+            s.Push("c#");
+            s.Push("Java");
+            s.Push("DBMS");
+            Console.WriteLine("1. "+s.Peek());
+            s.Pop();
+            Console.WriteLine("2.After 1 pop: "+s.Peek());
+            Console.ReadLine();
+        }
+    }
+}
